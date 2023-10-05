@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <body>
+    <button style="width: 500px; height: 300px"  onclick="f1();">Click</button>
+</body>
+<script>
+    function f1(){
+        //window.alert("Hello");
+      var yn=  window.confirm("Do you want to print ?");
+      if(yn){
+          window.print();
+      } else {
+
+      }
+    }
+
+
+    setInterval(function () { console.log("Interval message")}, 3000);
+</script> -->
+
+<!-- <script>
+    var arr=[10,20,30,40,50]
+    var narr=['a','b','c']
+    arr.splice(3,0,narr)
+    alert(arr)
+    </script> -->
+    
+    <!-- <script>
+        function fun1(){
+            let val1 = document.getElementById("t1").value;
+            let val2 = document.getElementById("t2").value;
+            document.getElementById("t1").value = val2;
+            document.getElementById("t2").value = val1;
+
+        }
+    </script> -->
+
+    <script>
+        function fun1(x,...y){
+        var rv=y.reduce((x,y)=>x+y+10)
+        alert(rv)
+        }
+        fun1(10,20);
+        fun1(1,2,3,4,5,6,7,8,9);
+        </script>
+<body>
+<!-- <input type="button" value="Click" onclick="rv()" />
+<input type="button" value="Click" onclick="fun1()" /> -->
+
+<input type="text" value="" id="t1" />
+<input type="text" value="" id="t2" />
+<input type="button" value="Swap" onclick="fun1()" />
+</body>
+</html>

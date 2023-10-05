@@ -1,0 +1,8 @@
+Borders  vs  Outline  vs  Box Shadow Simialr functionality.
+Line Height property can be tricky.
+Defining a wrapper class div and putting all the relevant content divs can useful in center aligning the content. 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+Keep playing between display options  inline and inline-block to get the job done.
